@@ -1,0 +1,16 @@
+.grid {
+	background-color: rgba(252, 132, 132, 0);
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	max-width: 400px;
+	max-height: 400px;
+	grid-gap: 0.8rem;
+	gap: 0.8rem;
+	width: calc(100vmin - 40px);
+	height: calc(100vmin - 40px);
+}
+
+.box {
+	border: 1px solid lightgrey;
+}
